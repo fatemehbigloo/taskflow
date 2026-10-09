@@ -46,14 +46,3 @@ fun GreetingPreview() {
     }
 }
 
-@Composable
-fun TaskFlowWelcome() {
-    column(modifier = Modifier.padding(24.dp)) {
-        Text(
-            text = "welcome to TaskFlow!",
-        )
-        button(onClick = {}){
-            text(" start ")
-        }
-    }
-}
